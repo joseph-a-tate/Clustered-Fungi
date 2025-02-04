@@ -1,0 +1,25 @@
+2025-02-04T13:41:54.497Z HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+2025-02-04T13:41:54.497Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 36715.
+2025-02-04T13:41:54.504Z HYPERVISOR: exec_cmd: hypervisor version 
+2025-02-04T13:41:54.504Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/utgarda-loki18/Documents/Code/Clustered-Fungi/network-resources/gns3-project/clustered-fungi/project-files/dynamips 
+2025-02-04T13:41:54.504Z GENERAL: working_dir=/home/utgarda-loki18/Documents/Code/Clustered-Fungi/network-resources/gns3-project/clustered-fungi/project-files/dynamips
+2025-02-04T13:41:54.504Z HYPERVISOR: exec_cmd: ethsw create Switch2 
+2025-02-04T13:42:21.924Z HYPERVISOR: exec_cmd: nio create_udp udp-a6b5ba52-255a-4fad-8b13-9d0e7dcd8d31 10001 127.0.0.1 10000 
+2025-02-04T13:42:21.924Z HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-a6b5ba52-255a-4fad-8b13-9d0e7dcd8d31 
+2025-02-04T13:42:21.937Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-a6b5ba52-255a-4fad-8b13-9d0e7dcd8d31 1 
+2025-02-04T13:42:30.831Z HYPERVISOR: exec_cmd: nio create_udp udp-fc4d9405-66ac-4588-90d4-e66d45a608db 10002 127.0.0.1 10003 
+2025-02-04T13:42:30.831Z HYPERVISOR: exec_cmd: ethsw add_nio Switch2 udp-fc4d9405-66ac-4588-90d4-e66d45a608db 
+2025-02-04T13:42:30.840Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-fc4d9405-66ac-4588-90d4-e66d45a608db 1 
+2025-02-04T13:42:43.272Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-a6b5ba52-255a-4fad-8b13-9d0e7dcd8d31 1 
+2025-02-04T13:42:43.272Z HYPERVISOR: exec_cmd: ethsw set_access_port Switch2 udp-fc4d9405-66ac-4588-90d4-e66d45a608db 1 
+2025-02-04T14:17:22.780Z HYPERVISOR: exec_cmd: ethsw rename Switch2 Clustered-Fungi 
+2025-02-04T14:17:22.780Z HYPERVISOR: exec_cmd: ethsw set_access_port Clustered-Fungi udp-a6b5ba52-255a-4fad-8b13-9d0e7dcd8d31 1 
+2025-02-04T14:17:22.780Z HYPERVISOR: exec_cmd: ethsw set_access_port Clustered-Fungi udp-fc4d9405-66ac-4588-90d4-e66d45a608db 1 
+2025-02-04T14:17:22.805Z HYPERVISOR: exec_cmd: ethsw set_access_port Clustered-Fungi udp-a6b5ba52-255a-4fad-8b13-9d0e7dcd8d31 1 
+2025-02-04T14:17:22.805Z HYPERVISOR: exec_cmd: ethsw set_access_port Clustered-Fungi udp-fc4d9405-66ac-4588-90d4-e66d45a608db 1 
+2025-02-04T14:20:11.257Z HYPERVISOR: exec_cmd: ethsw set_access_port Clustered-Fungi udp-a6b5ba52-255a-4fad-8b13-9d0e7dcd8d31 1 
+2025-02-04T14:20:11.257Z HYPERVISOR: exec_cmd: ethsw set_access_port Clustered-Fungi udp-fc4d9405-66ac-4588-90d4-e66d45a608db 1 
+2025-02-04T14:23:23.447Z HYPERVISOR: exec_cmd: ethsw delete Clustered-Fungi 
+2025-02-04T14:23:23.480Z HYPERVISOR: exec_cmd: hypervisor stop 
+2025-02-04T14:23:23.590Z HYPERVISOR: Stopped.
+2025-02-04T14:23:23.590Z GENERAL: reset done.
