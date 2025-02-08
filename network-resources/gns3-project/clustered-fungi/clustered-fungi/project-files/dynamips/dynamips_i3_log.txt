@@ -1,0 +1,29 @@
+2025-02-08T09:40:41.298Z HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+2025-02-08T09:40:41.298Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 46693.
+2025-02-08T09:40:41.306Z HYPERVISOR: exec_cmd: hypervisor version 
+2025-02-08T09:40:41.306Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/utgarda-loki18/Documents/Code/Clustered-Fungi/network-resources/gns3-project/clustered-fungi/clustered-fungi/project-files/dynamips 
+2025-02-08T09:40:41.306Z GENERAL: working_dir=/home/utgarda-loki18/Documents/Code/Clustered-Fungi/network-resources/gns3-project/clustered-fungi/clustered-fungi/project-files/dynamips
+2025-02-08T09:40:41.306Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/utgarda-loki18/Documents/Code/Clustered-Fungi/network-resources/gns3-project/clustered-fungi/clustered-fungi/project-files/dynamips/717e3511-c6ee-49fa-a507-74beb0b3008e 
+2025-02-08T09:40:41.306Z GENERAL: working_dir=/home/utgarda-loki18/Documents/Code/Clustered-Fungi/network-resources/gns3-project/clustered-fungi/clustered-fungi/project-files/dynamips/717e3511-c6ee-49fa-a507-74beb0b3008e
+2025-02-08T09:40:41.306Z HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+2025-02-08T09:40:41.306Z VM: VM R3 created.
+2025-02-08T09:40:41.306Z HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: vm get_status R3 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: vm get_status R3 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x60630d08 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: vm set_ios R3 /home/utgarda-loki18/GNS3/images/IOS/c7200-adventerprisek9-mz.153-3.XB12.image 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: c7200 set_mac_addr R3 ca03.b269.0000 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+2025-02-08T09:40:41.307Z HYPERVISOR: exec_cmd: vm set_ram R3 512 
+2025-02-08T09:40:41.308Z HYPERVISOR: exec_cmd: vm get_status R3 
+2025-02-08T09:40:41.308Z HYPERVISOR: exec_cmd: vm slot_remove_binding R3 0 0 
+2025-02-08T09:40:41.308Z HYPERVISOR: exec_cmd: vm get_status R3 
+2025-02-08T09:40:41.308Z HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-GE-E 
+2025-02-08T09:40:41.308Z HYPERVISOR: exec_cmd: vm get_status R3 
+2025-02-08T09:40:41.308Z HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-POS-OC3 
+2025-02-08T09:40:41.815Z HYPERVISOR: exec_cmd: nio create_udp udp-05c3a6bf-f355-462b-ba58-0ade1202cdcc 10008 127.0.0.1 10009 
+2025-02-08T09:40:42.018Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-05c3a6bf-f355-462b-ba58-0ade1202cdcc 
+2025-02-08T09:40:42.018Z HYPERVISOR: exec_cmd: vm get_status R3 
