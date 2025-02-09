@@ -29,7 +29,7 @@ You can download the current GNS3 simulation environment from this repository if
 ### Network Documentation
 Here I will keep all network topology diagrams, hardware and software directories, IP matrixes, management policies (account, log, certificate, patch & update etc), mandatory training policies, contact information, disaster recovery plans, and security incident response plans. Please remember, these are ficticious and, in the world of Clustered-Fungi,the documents would be strictly protected according to NIST CSF, CIS CSC, etc.
 
-### Organization Logical Layout
+### Organizational Layout
 <img src="https://github.com/joseph-a-tate/Clustered-Fungi/blob/main/network-documentation/Organizational Layout.jpg" width=50%x />
 
 <br />
