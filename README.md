@@ -29,11 +29,17 @@ You can download the current GNS3 simulation environment from this repository if
 ### Network Documentation
 Here I will keep all network topology diagrams, hardware and software directories, IP matrixes, management policies (account, log, certificate, patch & update etc), mandatory training policies, contact information, disaster recovery plans, and security incident response plans. Please remember, these are ficticious and, in the world of Clustered-Fungi,the documents would be strictly protected according to NIST CSF, CIS CSC, etc.
 
-<img src="https://github.com/joseph-a-tate/Clustered-Fungi/blob/main/network-documentation/organizational-overview.jpg" width=50%x />
+### Organization Logical Layout
+<img src="https://github.com/joseph-a-tate/Clustered-Fungi/blob/main/network-documentation/Organizational Layout.jpg" width=50%x />
 
 <br />
 
-<img src="https://github.com/joseph-a-tate/Clustered-Fungi/blob/main/network-documentation/Truffle Branch.jpg" width=50%x />
+### Branch Logical Layouts
+<p float="left">
+  <img src="https://github.com/joseph-a-tate/Clustered-Fungi/blob/main/network-documentation/Beefsteak Branch.jpg" width=30%x /> 
+  <img src="https://github.com/joseph-a-tate/Clustered-Fungi/blob/main/network-documentation/Truffle Branch.jpg" width=35%x /> 
+  <img src="https://github.com/joseph-a-tate/Clustered-Fungi/blob/main/network-documentation/Chanterelle Branch.jpg" width=30%x />
+</p>
 
 <br />
 
