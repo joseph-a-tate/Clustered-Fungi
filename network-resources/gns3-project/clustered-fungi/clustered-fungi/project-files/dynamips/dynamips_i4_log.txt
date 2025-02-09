@@ -1,6 +1,0 @@
-2025-02-08T09:40:41.336Z HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
-2025-02-08T09:40:41.336Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 48479.
-2025-02-08T09:40:41.344Z HYPERVISOR: exec_cmd: hypervisor version 
-2025-02-08T09:40:41.344Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/utgarda-loki18/Documents/Code/Clustered-Fungi/network-resources/gns3-project/clustered-fungi/clustered-fungi/project-files/dynamips 
-2025-02-08T09:40:41.344Z GENERAL: working_dir=/home/utgarda-loki18/Documents/Code/Clustered-Fungi/network-resources/gns3-project/clustered-fungi/clustered-fungi/project-files/dynamips
-2025-02-08T09:40:41.344Z HYPERVISOR: exec_cmd: ethsw create Switch1 
