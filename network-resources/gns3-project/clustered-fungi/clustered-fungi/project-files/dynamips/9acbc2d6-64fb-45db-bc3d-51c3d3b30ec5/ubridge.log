@@ -4,3 +4,6 @@ UDP tunnel connecting from local port 10005 to IPv4 address 127.0.0.1 on port 10
 UDP tunnel connecting from local port 10001 to IPv4 address 127.0.0.1 on port 10000
 Source NIO listener thread for DYNAMIPS-10004-10005 has started
 Destination NIO listener thread for DYNAMIPS-10004-10005 has started
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Hypervisor: stopped.
