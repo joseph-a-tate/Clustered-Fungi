@@ -33,5 +33,9 @@ Here I will keep all network topology diagrams, hardware and software directorie
 
 <br />
 
+<img src="https://github.com/joseph-a-tate/Clustered-Fungi/blob/main/network-documentation/Truffle Branch.jpg" width=50%x />
+
+<br />
+
 ### Simulation Results
 Follow along here to see the results of different simulation excersizes that show off the capabilities and functionality of this ficticious network!
