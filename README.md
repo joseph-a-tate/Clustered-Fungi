@@ -7,6 +7,8 @@ A fictional company of mushrooms, where they sell vegetation to other mushrooms 
 ### Project Summary
 I will be using this project to improve and showcase my skills. It will utilize GNS3 to emulate the networks I build. Throughout this readme I will detail and log all of the capabilities of my fictional company network. I hope that it is both informative and entertaining! Please reach out to me if you have any questions or concerns!
 
+CHECK ON PROJECTS to see a live tracker of what I'm doing!
+
 ### Clustered-Fungi
 This company will sell vegetation to other mushrooms around the country of Goo. It will have three remote offices, each responsible for a range of different tasks.
 > Office 1: Truffle Branch
